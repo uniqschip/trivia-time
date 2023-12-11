@@ -1,0 +1,63 @@
+.options--form {
+	display: flex;
+	flex-direction: column;
+	min-width: 50%;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.options--form > label {
+	font-size: 2rem;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #fbfbfb;
+	margin-top: 15px;
+}
+
+.options--form > input,
+.options--form > select {
+	font-size: 1.3rem;
+	color: #00111c;
+	font-family: "Bungee Hairline", sans-serif;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #00111c;
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	padding: 8px 0;
+	border: none;
+	border-radius: 10px;
+	margin: 10px auto 15px;
+	width: 95%;
+	outline: none;
+	user-select: none;
+}
+
+.options--form > input::selection {
+	background: rgba(255, 255, 0, 0);
+}
+
+option {
+	font-family: "Bungee Hairline", sans-serif;
+	font-size: 1rem;
+	color: blue;
+	background-color: #00111c;
+}
+
+@media (min-width: 576px) {
+	.options--form > input,
+	.options--form > select {
+		font-size: 1.3rem;
+		color: #00111c;
+		font-family: "Bungee Hairline", sans-serif;
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: #00111c;
+		background-color: rgba(255, 255, 255, 0.9);
+		text-align: center;
+		padding: 8px 0;
+		border: none;
+		border-radius: 10px;
+		margin: 10px 0 15px;
+		box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+	}
+}

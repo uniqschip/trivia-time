@@ -1,0 +1,19 @@
+.wrap {
+	overflow: hidden;
+	position: fixed;
+	background-size: contain;
+	z-index: -9999;
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(-206deg, #00111c 0%, #001523 100%);
+	background-size: contain;
+	margin: 0;
+	padding: 0;
+}
+
+canvas {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,34 @@
+footer {
+	color: #e6e6e6;
+	letter-spacing: 0.1rem;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	translate: 0 25px;
+	padding: 3rem 3rem;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #e6e6e6;
+}
+
+footer > a {
+	-webkit-text-stroke-color: #326ded;
+	text-decoration: none !important;
+	transition: 0.1s linear;
+	display: inline-block;
+}
+
+footer > span {
+	display: inline-block;
+	color: #004b7d;
+}
+
+footer > a:hover {
+	color: rgb(222, 171, 20);
+	-webkit-text-stroke-color: rgb(222, 171, 20);
+	display: inline-block;
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari */
+	transform: scale(103%);
+	padding: 0;
+}
