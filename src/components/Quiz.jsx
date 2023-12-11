@@ -139,7 +139,7 @@ export default function Quiz(props) {
 	// button to bring user back to landing to reselect QuizOptions
 	const resetQuizButtonElements = (
 		<button onClick={props.resetQuizOptions}>
-			<span className="btn--text">New Quiz Options</span>
+			<span className="btn--text">New Quiz</span>
 		</button>
 	);
 
