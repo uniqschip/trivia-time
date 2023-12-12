@@ -1,1 +1,1 @@
-# A Trivia App using React + Vite
+# A Trivia App using React
